@@ -1,3 +1,7 @@
+#uses yt-dlp to download specified video @ 1920x1080x60fps
+#all you need to do is paste a link and you're golden
+#MUST have ffmpeg installed to merge formats. 'sudo apt install ffmpeg -y'
+
 echo paste link to video here
 
 read vidLink
