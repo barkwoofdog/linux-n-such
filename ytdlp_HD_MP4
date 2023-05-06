@@ -1,10 +1,5 @@
 #!/bin/bash
 
-#uses yt-dlp to download specified video @ 1920x1080x60fps
-#all you need to do is paste a link and you're golden
-#here's a link to the yt-dlp project. Involves instructions to download! - https://github.com/yt-dlp/yt-dlp
-#MUST have ffmpeg installed to merge formats. 'sudo apt install ffmpeg -y'
-
 echo paste link to video here
 
 read vidLink
@@ -13,6 +8,6 @@ echo type your desired filename excluding the extension
 
 read vidTitle
 
-yt-dlp -f 'bv[height=1080][ext=mp4]+ba[ext=m4a]' --merge-output-format mp4 $vidLink -o $vidTitle.mp4
+yt-dlp -f 'bv[height=1080][ext=mp4]+ba[ext=m4a]' --merge-output-format mp4 $vidLink -o $HOME/$vidTitle.mp4
 
-echo DOWNLOAd of vidLink starting...
+echo download of $vidTitle.mp4 is complete!
