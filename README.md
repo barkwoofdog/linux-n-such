@@ -4,7 +4,7 @@ scripts i made, common commands i run and other kinds of fun stuff
 ## yt-dlp
 quite possibly one of the best pieces of software out there.
 
-## [Installation](https://github.com/yt-dlp/yt-dlp#installation)  
+### [Installation](https://github.com/yt-dlp/yt-dlp#installation)  
 ### MacOS (homebrew)<br>
 ``brew install yt-dlp ffmpeg``
 
