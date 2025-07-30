@@ -8,7 +8,7 @@ echo "Username to pull Long UUID For"
 read username
 
 #URL needs to be a variable so wget can grab the output
-resourceURL=https://api.mojang.com/users/profiles/minecraft/$username
+resourceURL=https://api.minecraftservices.com/minecraft/profile/lookup/name/$username
 api_output="`wget -qO- $resourceURL`"
 
 #grabs the raw uuid between the specified characters. allows string manipulation in next step
